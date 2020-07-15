@@ -1,7 +1,7 @@
 #include <stdio.h>//Вывести заданный массив размером N в обратном порядке
 int main()
 {
-int n;
+int n=0;
 printf("n=");
 scanf("%d",&n);
 int a[n];
