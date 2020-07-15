@@ -5,7 +5,7 @@ int n,i,j,b=1,c=0;
 printf("n=");
 scanf("%d",&n);
 int a[n][n];
-for(i=0; i<n*n;)
+while (i<n*n)
 {
 c++;
 for(j=c-1; j<n-c+1; j++)
