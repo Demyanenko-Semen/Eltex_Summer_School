@@ -1,7 +1,7 @@
 #include <stdio.h>//Заполнить верхний треугольник матрицы 1, а нижний 0
 int main()
 {
-int n;
+int n=0;
 printf("n=");
 scanf("%d",&n);
 int a[n][n];
