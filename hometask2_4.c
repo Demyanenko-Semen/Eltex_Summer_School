@@ -1,7 +1,7 @@
 #include <stdio.h>//Заполнить матрицу числами от 1 до N в квадрате улиткой
 int main()
 {
-int n,i,j,b=1,c=0;
+int n=0,i,j,b=1,c=0;
 printf("n=");
 scanf("%d",&n);
 int a[n][n];
