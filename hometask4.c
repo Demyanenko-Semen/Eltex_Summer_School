@@ -71,10 +71,11 @@ printf("\n");
 }
 else
 {
+newlist[i]=list[i];
 printf("%d\n",i+1);
-printf("Имя:%s\n",list[i].name);
-printf("Фамилия:%s\n",list[i].surname);
-printf("Номер телефона:%d\n",*list[i].phone);
+printf("Имя:%s\n",newlist[i].name);
+printf("Фамилия:%s\n",newlist[i].surname);
+printf("Номер телефона:%d\n",*newlist[i].phone);
 }
 }
 }
